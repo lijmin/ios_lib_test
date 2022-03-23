@@ -26,12 +26,17 @@ int add(int a, int b){
 }
 ```
 点击command+b编译，编译成功即可在Products目录下生成libhello.a。
+
 右键libhello.a->Show in Filder，把libhello.a拷贝出来备用。
 
 如果没有Products目录
+
 到项目的目录下找hello.xcodeproj文件，右键显示包内容
+
 然后打开project.pbxproj文件
+
 搜索mainGroup，把mainGroup后面的内容复制到productRefGroup
+
 回到xcode即可看到Products
 
 ## 引用hello.a
@@ -40,6 +45,7 @@ int add(int a, int b){
 
 创建hello文件夹，将hello.h、libhello.a拖入到文件夹下面
 ![](https://lijmin.github.io/00_blogImg/img_blog16_03.png)
+
 在ViewController.m里面调用hello.c的add方法
 ![](https://lijmin.github.io/00_blogImg/img_blog16_04.png)
 
