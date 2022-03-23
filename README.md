@@ -42,5 +42,6 @@ int add(int a, int b){
 ![](https://lijmin.github.io/00_blogImg/img_blog16_03.png)
 在ViewController.m里面调用hello.c的add方法
 ![](https://lijmin.github.io/00_blogImg/img_blog16_04.png)
+
 点击运行即可在控制台看到打印结果。
 `hello add = 3`
