@@ -1,5 +1,6 @@
 # ios_lib_test
 在xcode上面生成iOS静态库.a文件，并引用。
+
 项目地址 github：<https://github.com/lijmin/SO2NDK>
 
 ## 创建libhello.a
@@ -36,6 +37,7 @@ int add(int a, int b){
 ## 引用hello.a
 打开xcode，依次点击File->New->Project->app创建项目
 ![](https://lijmin.github.io/00_blogImg/img_blog16_02.png)
+
 创建hello文件夹，将hello.h、libhello.a拖入到文件夹下面
 ![](https://lijmin.github.io/00_blogImg/img_blog16_03.png)
 在ViewController.m里面调用hello.c的add方法
